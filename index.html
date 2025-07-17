@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+  
+
+        <div class="todo-app">
+            
+        <h1 id="heading">To-Do App</h1>
+        <div class="progress-wrapper">
+    <div class="progress-label">Progress: <span class="progress-percent">0%</span></div>
+    <div class="progress-bar-container">
+      <div class="progress-bar-fill"></div>
+    </div>
+    <div class="progress-count">
+      <span class="progress-done">0</span> / <span class="progress-total">0</span>
+    </div>
+  </div>
+        
+        <div class="input-area">
+            <input type="text" id="task-input" placeholder="Enter a new task" autocomplete="off">
+            <button id="add" type="submit"><i class="ri-add-line"></i></button>
+
+        </div>
+        <div class="todo-container">
+            <ul id="task-list"></ul>
+            
+        </div>
+        
+    </div>
+    
+          
+    </div>
+</body>
+<script src="script.js"></script>
+</html> 
