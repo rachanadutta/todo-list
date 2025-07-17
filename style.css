@@ -23,9 +23,10 @@ body{
 }
 @media (max-width: 480px){
     .input-area {
-    flex-direction: column;
+  
     gap: 10px;
     width: 100%;
+    margin-top: 10px;
   }
 
   #task-input, #add {
@@ -39,6 +40,50 @@ body{
     width: 100%;
     padding: 10px;
     gap: 6px;
+    margin-bottom: 10px;
+  }
+
+  .progress-label,
+  .progress-count {
+    font-size: 0.9rem;
+  }
+  #heading {
+    font-size: 1.5rem;
+  }
+
+  li {
+    
+    align-items: flex-start;
+  }
+
+  li button {
+    margin-top: 5px;
+  }
+  body {
+  overflow-x: hidden;
+}
+
+}
+@media (max-width: 380px){
+    .input-area {
+      flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  #task-input, #add {
+    width: 100%;
+  }
+
+  #add {
+    margin: 0;
+  }
+  .progress-wrapper {
+    width: 100%;
+    padding: 10px;
+    gap: 6px;
+    margin-bottom: 10px;
   }
 
   .progress-label,
@@ -54,9 +99,7 @@ body{
     align-items: flex-start;
   }
 
-  li button {
-    margin-top: 5px;
-  }
+  
   body {
   overflow-x: hidden;
 }
